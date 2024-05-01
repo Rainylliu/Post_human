@@ -27,10 +27,10 @@ html,
 }
 .title {
     color: white;
-    font-size: 40px;
+    font-size: 30px;
     position: absolute;
-    width: 600px;
-    top: 150px;
+    width: 500px;
+    top: 120px;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -137,7 +137,7 @@ html,
     align-items: center;
 }
 .bg {
-    width: 70%;
+    width: 65%;
     position: absolute;
 }
 .first_page {
@@ -179,7 +179,7 @@ html,
     font-style: normal;
     color: white;
     font-size: 15px;
-    bottom: 50px;
+    bottom: 0;
     position: absolute;
 
 }
@@ -213,7 +213,7 @@ html,
     font-family: "IBM Plex Mono", monospace;
     font-weight: 600;
     font-style: normal;
-    font-size: 30px;
+    font-size: 24px;
     display: flex;
     flex-direction: column;
 }
@@ -255,16 +255,16 @@ html,
     left: 7%;
 }
 .box5_intro {
-    width: 870px;
-    height: 150px;
+    width: 700px;
+    height: 200px;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
-    font-size: 22px;
+    font-size: 18px;
     color: white;
     position: absolute;
     top: 70%;
-    right: 50px;
+    right: 20px;
 }
 .box6 {
     width: 100%;
@@ -276,7 +276,7 @@ html,
     align-items: center;
 }
 .box6 img{
-    width: 90%;
+    width: 80%;
     position: absolute;
 }
 .box7 {
@@ -306,22 +306,22 @@ html,
 }
 .box7_wm1 {
     width: 16%;
-    margin-top: 2%;
+    margin-top: 10px;
 }
 .box7_wm2 {
     width: 16%;
 }
 .box7_wm3 {
     width: 16%;
-    margin-top: 2.5%;
+    margin-top: 20px;
 }
 .box7_wm4 {
     width: 16%;
-    margin-top: 2.5%;
+    margin-top: 20px;
 }
 .box7_wm5 {
     width: 16%;
-    margin-top: 3%;
+    margin-top: 30px;
 }
 .outside_up {
     position: absolute;
@@ -333,6 +333,10 @@ html,
 }
 .box7_wt {
     width: 36%;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
 }
 .outside_down {
     position: absolute;
@@ -344,4 +348,8 @@ html,
 }
 .box7_dt {
     width: 27%;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 15px;
 }
