@@ -74,5 +74,28 @@ document.addEventListener('scroll', () => {
         a8.style.opacity = 1 - transformAmount / 100;
     }
 });
+document.addEventListener('DOMContentLoaded', function () {
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+    const prevButton = document.querySelector('.prev');
+    const nextButton = document.querySelector('.next');
 
+    function showSlides(n) {
+        slides.forEach((slide, index) => {
+            slide.style.display = "none";
+        });
+        slideIndex = (n + slides.length) % slides.length;
+        slides[slideIndex].style.display = "block";
+    }
+
+    prevButton.addEventListener('click', () => {
+        showSlides(slideIndex - 1);
+    });
+
+    nextButton.addEventListener('click', () => {
+        showSlides(slideIndex + 1);
+    });
+
+    showSlides(slideIndex); // Initialize the slider
+});
   
