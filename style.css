@@ -30,7 +30,7 @@ html,
     font-size: 30px;
     position: absolute;
     width: 500px;
-    top: 120px;
+    top: 3%;
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
@@ -51,6 +51,7 @@ html,
 }
 
 .a1 {
+    position: absolute;
     width: 20%;
     top: 650px;
     left: 350px;
@@ -162,24 +163,26 @@ html,
 }
 .w1 {
     position: absolute;
-    top: 40px;
+    top: 7.5%;
     width: 200px;
 }
 .w2 {
     position: absolute;
-    top: 60px;
+    top: 10%;
     width: 200px;
 }
 .no {
     color: black;
 }
 .sp {
+    display: block;
+    text-align: center;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 500;
     font-style: normal;
     color: white;
     font-size: 15px;
-    bottom: 0;
+    bottom: 5%;
     position: absolute;
 
 }
@@ -206,7 +209,7 @@ html,
     height: 80%;
 }
 .intro1, .intro2 {
-    width: 800px;
+    width: 55%;
     position: absolute;
     text-align: center;
     color: white;
@@ -255,8 +258,7 @@ html,
     left: 7%;
 }
 .box5_intro {
-    width: 700px;
-    height: 200px;
+    width: 55%;
     font-family: "IBM Plex Mono", monospace;
     font-weight: 400;
     font-style: normal;
@@ -264,7 +266,7 @@ html,
     color: white;
     position: absolute;
     top: 70%;
-    right: 20px;
+    right: 3%;
 }
 .box6 {
     width: 100%;
@@ -295,7 +297,7 @@ html,
 .inside {
     position: absolute;
     width: 55%;
-    margin-top: 10px;
+    height: 10%;
     display: flex;
     justify-content: space-around;
     font-family: "IBM Plex Mono", monospace;
@@ -306,7 +308,6 @@ html,
 }
 .box7_wm1 {
     width: 16%;
-    margin-top: 10px;
 }
 .box7_wm2 {
     width: 16%;
@@ -363,7 +364,7 @@ html,
 
 .box8 {
     width: 100%;
-    height: auto;
+    height: 100vh;
     position: relative;
     top: 200vh;
     display: flex;
@@ -397,7 +398,6 @@ html,
     width: auto;
     margin-top: -22px;
     padding: 16px;
-    color: white;
     font-weight: bold;
     font-size: 18px;
     transition: 0.6s ease;
@@ -414,11 +414,22 @@ html,
     left: 0;
     border-radius: 0 3px 3px 0;
 }
+.box8 span{
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 17px;
+    bottom: 100px;
+    width: 70%;
+    position: absolute;
+}
+
 .box9 {
     width: 100%;
     height: 100vh; 
     position: relative;
-    top: 230vh;
+    top: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -426,14 +437,13 @@ html,
 
 .svg-image {
     width: 100%;
-    height: auto;
 }
 
 .box10 {
     width: 100%;
     height: 100vh; 
     position: relative;
-    top: 250vh;
+    top: 200vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -441,6 +451,7 @@ html,
 
 .svg-image {
     width: 100%;
-    height: auto;
 }
+
+
 
