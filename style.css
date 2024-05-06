@@ -52,9 +52,9 @@ html,
 
 .a1 {
     position: absolute;
-    width: 20%;
-    top: 650px;
-    left: 350px;
+    width: 16%;
+    top: 90%;
+    left: 35%;
 }
 .a2 {
     width: 8%;
@@ -79,7 +79,7 @@ html,
 .a6 {
     width: 27%;
     top: 350px;
-    right: 150px;
+    right: -10px;
 }
 .a7 {
     width: 50%;
@@ -174,7 +174,7 @@ html,
 .no {
     color: black;
 }
-.sp {
+.sp1, .sp2, .sp3 {
     display: block;
     text-align: center;
     font-family: "IBM Plex Mono", monospace;
@@ -453,5 +453,151 @@ html,
     width: 100%;
 }
 
+@media (max-width: 1024px) {
+    .a1 {
+        position: absolute;
+        width: 15%;
+        top: 450px;
+        left: 350px;
+    }
+    .a2 {
+        width: 6%;
+        top: 100px;
+        right: 450px;
+    }
+    .a3 {
+        width: 15%;
+        top: 10px;
+        left: 550px;
+    }
+    .a4 {
+        width: 30%;
+        top: 350px;
+        right: 300px;
+    }
+    .a5 {
+        width: 35%;
+        top: 250px;
+        left: 0px;
+    }
+    .a6 {
+        width: 23%;
+        top: 250px;
+        right: 200px;
+    }
+    .a7 {
+        width: 30%;
+        top: 40px;
+        left: 200px;
+    }
+    .a8 {
+        width: 40%;
+        top: 320px;
+        right: 0px;
+    }
+
+    .bg {
+        width: 45%;
+        position: absolute;
+    }
+    .t1,.t2,.t3 {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        position: relative;
+    }
+    .t1 {
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        color: white;
+    }
+    .w2 {
+        position: absolute;
+        top: 11%;
+        width: 200px;
+    }
+    .sp2 {
+        width: 150px;
+    }
+    .sp3 {
+        width: 300px;
+    }
+    .intro2 {
+        width: 60%;
+    }
+    .intro_img {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 30px;
+    }
+    .i1 {
+        width: 25%;
+        height: 25%;
+        margin-left: 20px;
+    }
+    .i2 {
+        width: 25%;
+    }
+    .i3 {
+        width: 25%;
+        height: 25%;
+        margin-right: 20px;
+    }
+    .box5_intro {
+        width: 50%;
+        top: 70%;
+        right: 5%;
+    }
+    .box6 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .outside_up {
+        top: 14%;
+    }
+    .box7_wt {
+        width: 40%;
+        font-size: 12px;
+    }
+    .outside_down {
+        top: 80%;
+    }
+    .box7_dt {
+        width: 22%;
+        font-size: 12px;
+    }
+    .box7_wm3 {
+        width: 14%;
+        margin-top: 10px;
+    }
+    .box7_wm4 {
+        width: 14%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .box7_wm5 {
+        width: 15%;
+        margin-top: 20px;
+        margin-right: -5px;
+    }
+    .slider {
+        width: 60%;
+    }
+    .box8 span {
+        font-size: 15px;
+        bottom: 60px;
+        width: 60%;
+    }
+
+    .svg-image {
+        width: 85%;
+    }
+
+}
 
 
