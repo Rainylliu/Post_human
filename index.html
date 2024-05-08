@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Post Human</title>
     <link  rel="stylesheet" href="./style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 </head>
 <body>
     <div class="main">
@@ -102,6 +103,34 @@
                 <span div class="box7_dt">The reactor was non-operational, with an energy output of zero</span>
             </div>
         </div>
+        <div class="data1">
+            <span>Value of Radiation Chart</span>
+            <div class="chart-container">
+                <canvas id="radiationChart"></canvas>
+            </div>
+        </div>
+        <div class="data2">
+            <div class="chart-container">
+                <canvas id="locationRadiationChart"></canvas>
+            </div>
+        </div>
+        <div class="data3">
+            <div class="chart-container">
+                <canvas id="pripyatRadiationChart"></canvas>
+            </div>
+        </div>
+        <!-- <div id="imageContainer"></div> -->
+             
+        <!-- <div class="data4">
+            <h2>Health-Related Costs</h2>
+            <div style="width: 50%; margin: auto;">
+                <canvas id="healthCostsChart"></canvas>
+            </div>
+            <h2>Plant-Related Costs</h2>
+            <div style="width: 50%; margin: auto;">
+                <canvas id="plantCostsChart"></canvas>
+            </div>
+        </div> -->
         <div class="box8">
             <span>We employed the StyleGAN3 model to train on images of flowers, aiming to achieve a visually distorted effect. This distortion serves as a symbolic representation of the impact of nuclear power on plant life. The altered imagery reflects the potential deformities and mutations that plants might undergo in environments affected by nuclear radiation.</span>
             <div class="slider">

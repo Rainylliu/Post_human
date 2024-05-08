@@ -160,6 +160,13 @@ html,
     font-style: normal;
     font-size: 20px;
     color: white;
+    width: 15%;
+}
+.t2 {
+    width: 15%;
+}
+.t3 {
+    width: 23%;
 }
 .w1 {
     position: absolute;
@@ -452,8 +459,224 @@ html,
 .svg-image {
     width: 100%;
 }
+.chart-container {
+    width: 100%;
+    position: absolute;
+    top: 20%;
+}
+canvas {
+    width: 100%;
+    height: auto;
+}
+.data1 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 17px;
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+    top: 200vh;
+    display: flex;
+    justify-content: center;
+}
+.data1 span {
+    position: absolute;
+    top: 10%;
+}
+.data2 {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+    top: 200vh;
+    display: flex;
+    justify-content: center;
+}
+.data3 {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+    top: 200vh;
+    display: flex;
+    justify-content: center;
+}
+.data4 {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+    top: 200vh;
+    display: flex;
+    justify-content: center;
+}
+#imageContainer {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    top: 200vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
-@media (max-width: 1024px) {
+/* @media (max-width: 1440px) {
+    .a1 {
+        position: absolute;
+        width: 15%;
+        top: 450px;
+        left: 350px;
+    }
+    .a2 {
+        width: 6%;
+        top: 100px;
+        right: 450px;
+    }
+    .a3 {
+        width: 15%;
+        top: 10px;
+        left: 550px;
+    }
+    .a4 {
+        width: 30%;
+        top: 350px;
+        right: 300px;
+    }
+    .a5 {
+        width: 35%;
+        top: 250px;
+        left: 0px;
+    }
+    .a6 {
+        width: 23%;
+        top: 250px;
+        right: 200px;
+    }
+    .a7 {
+        width: 30%;
+        top: 40px;
+        left: 200px;
+    }
+    .a8 {
+        width: 40%;
+        top: 320px;
+        right: 0px;
+    }
+
+    .bg {
+        width: 45%;
+        position: absolute;
+    }
+    .t1,.t2,.t3 {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        position: relative;
+    }
+    .t1 {
+        font-family: "IBM Plex Mono", monospace;
+        font-weight: 600;
+        font-style: normal;
+        font-size: 20px;
+        color: white;
+    }
+    .w2 {
+        position: absolute;
+        top: 11%;
+        width: 200px;
+    }
+    .sp2 {
+        width: 150px;
+    }
+    .sp3 {
+        width: 300px;
+    }
+    .intro2 {
+        width: 60%;
+    }
+    .intro_img {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        top: 30px;
+    }
+    .i1 {
+        width: 25%;
+        height: 25%;
+        margin-left: 20px;
+    }
+    .i2 {
+        width: 25%;
+    }
+    .i3 {
+        width: 25%;
+        height: 25%;
+        margin-right: 20px;
+    }
+    .box5_intro {
+        width: 50%;
+        top: 70%;
+        right: 5%;
+        font-size: 14px;
+    }
+    .box6 {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .outside_up {
+        top: 20%;
+    }
+    .box7_wt {
+        width: 45%;
+        font-size: 12px;
+    }
+    .inside {
+        font-size: 12px;
+    }
+    .outside_down {
+        top: 72%;
+    }
+    .box7_dt {
+        width: 30%;
+        font-size: 12px;
+    }
+    .box7_wm1 {
+        width: 16%;
+        margin-top: 2%;
+    }
+    .box7_wm2 {
+        width: 17%;
+        margin-top: 1.7%;
+    }
+    .box7_wm3 {
+        width: 14%;
+        margin-top: 3%;
+    }
+    .box7_wm4 {
+        width: 14%;
+        margin-top: 10px;
+        margin-left: 10px;
+    }
+    .box7_wm5 {
+        width: 15%;
+        margin-top: 4.5%;
+    }
+    .slider {
+        width: 60%;
+    }
+    .box8 span {
+        font-size: 15px;
+        bottom: 60px;
+        width: 60%;
+    }
+
+}
+ */
+
+
+ @media (max-width: 1024px) {
     .a1 {
         position: absolute;
         width: 15%;
@@ -599,5 +822,3 @@ html,
     }
 
 }
-
-
