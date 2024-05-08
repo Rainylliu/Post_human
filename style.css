@@ -444,21 +444,9 @@ html,
 
 .svg-image {
     width: 100%;
+    z-index: -1;
 }
 
-.box10 {
-    width: 100%;
-    height: 100vh; 
-    position: relative;
-    top: 200vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.svg-image {
-    width: 100%;
-}
 .chart-container {
     width: 100%;
     position: absolute;
@@ -521,7 +509,41 @@ canvas {
     justify-content: center;
     flex-direction: column;
 }
+.box10 {
+    width: 100%;
+    height: 100vh; 
+    position: relative;
+    top: 200vh;
+    text-align: center;
+    display: flex;
+}
 
+.box10 h2 {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    transform: translateX(-50%);
+    text-align: center;
+    width: 52%;
+    left: 50%;
+}
+.box10 span {
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 22px;
+    position: absolute;
+    top: 40%;
+    text-align: center;
+    width: 52%;
+    left: 50%;
+    transform: translateX(-50%);
+}
 /* @media (max-width: 1440px) {
     .a1 {
         position: absolute;
