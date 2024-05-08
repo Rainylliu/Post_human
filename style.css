@@ -460,9 +460,10 @@ html,
     width: 100%;
 }
 .chart-container {
-    width: 100%;
     position: absolute;
     top: 20%;
+    display: flex;
+    align-items: center;
 }
 canvas {
     width: 100%;
