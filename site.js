@@ -132,11 +132,11 @@ const scatterChart = new Chart(ctx, {
             ],
             backgroundColor: function(context) {
                 const value = context.raw.y;
-                if (value > 5000) return 'rgba(255, 99, 132, 1)'; // Red
-                if (value > 1000) return 'rgba(255, 159, 64, 1)'; // Orange
-                if (value > 100) return 'rgba(255, 205, 86, 1)'; // Yellow
+                if (value > 5000) return 'rgba(21, 60, 71, 1)'; // Red
+                if (value > 1000) return 'rgba(63, 101, 110, 1)'; // Orange
+                if (value > 100) return 'rgba(101, 151, 163, 1)'; // Yellow
                 if (value > 10) return 'rgba(75, 192, 192, 1)'; // Green
-                return 'rgba(54, 162, 235, 1)'; // Blue
+                return 'rgba(73, 141, 119, 1)'; // Blue
             },
             pointRadius: 10 // Increased point radius
         }]
@@ -199,7 +199,7 @@ const locationRadiationChart = new Chart(locationCtx, {
                 {x: 10, y: 0.3, location: 'Gidroelektromontazh depot'},
                 {x: 11, y: 0.125, location: 'Concrete mixing unit'}
             ],
-            backgroundColor: 'rgba(54, 162, 235, 1)',  // Adjusted for clarity
+            backgroundColor: 'rgba(131, 159, 102, 1)',  // Adjusted for clarity
             pointRadius: 6  // Increase point radius for visibility
         }]
     },
@@ -276,7 +276,7 @@ const pripyatRadiationChart = new Chart(pripyatCtx, {
                 {x: 27, y: 13.6, location: 'Cafe Pripyat'},
                 {x: 28, y: 336, location: 'Metal claw'}
             ],
-            backgroundColor: 'rgba(153, 102, 255, 1)',
+            backgroundColor: 'rgba(73, 141, 119,1)',
             pointRadius: 6
         }]
     },
